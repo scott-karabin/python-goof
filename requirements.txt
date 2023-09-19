@@ -1,0 +1,15 @@
+quill-delta==1.0.3
+requests==2.31.0
+sqlalchemy>=1.4.18
+pymysql[rsa]==1.0.2
+boto3==1.23.1
+redis==4.5.4
+requests-oauthlib==1.3.1
+# Pinned `typing_extensions` to mitigate issues in `pydantic`. May be able
+# to remove once we upgrade to Python 3.10.
+#
+# See: https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_pydantic_pydantic_issues_5821&d=DwIGAg&c=wwDYKmuffy0jxUGHACmjfA&r=Z4snTuPRbNSFz_MzSXpdtQ&m=g4XBxQpog1e_qtKYm8rrb3LcT8eltwU-DcqeH59MmNYZjaon0AnIgXI9J1DR_5lv&s=xxMRQr-SsyROPO00GWxrIpOEAt5jITRocopqwpaTyiE&e= 
+typing_extensions==4.5.0
+aws-lambda-powertools==1.25.10
+environs==9.5.0
+git+https://github.com/NBCUniversal/lib-iprm-api-core@0.12.0#egg=lib_iprm_api_core
