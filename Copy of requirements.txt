@@ -1,0 +1,11 @@
+﻿quill-delta==1.0.3
+requests==2.31.0
+sqlalchemy>=1.4.18
+pymysql[rsa]==1.0.2
+boto3==1.23.1
+redis==4.5.4
+requests-oauthlib==1.3.1
+typing_extensions==4.5.0
+aws-lambda-powertools==1.25.10
+environs==9.5.0
+git+https://github.com/NBCUniversal/lib-iprm-api-core@0.12.0#egg=lib_iprm_api_core
