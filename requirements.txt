@@ -13,3 +13,4 @@ typing_extensions==4.5.0
 aws-lambda-powertools==1.25.10
 environs==9.5.0
 git+https://github.com/NBCUniversal/lib-iprm-api-core@0.12.0#egg=lib_iprm_api_core
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
